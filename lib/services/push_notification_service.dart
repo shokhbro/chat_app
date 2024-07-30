@@ -61,7 +61,7 @@ class FirebasePushNotificationService {
       },
     };
 
-    const projectId = "chat-app-f6052";
+    const projectId = "chat-project-37e6e";
     Uri url = Uri.parse(
         "https://fcm.googleapis.com/v1/projects/$projectId/messages:send");
 
